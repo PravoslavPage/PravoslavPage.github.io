@@ -1,0 +1,222 @@
+*{
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+	font-size: 30px;
+}
+ul,
+li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.container{
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.header_content{
+	background-repeat: no-repeat;
+	height: 150px;
+	padding: 20px;
+	background-image: url(../img/vr.jpg);
+}
+.menu li{
+	display: inline-block;
+	padding-right: 50px;
+	padding-top: 3px;
+}
+.header_content-inner{
+	display: flex;
+	justify-content: space-between;
+}
+
+.zagolovok{
+	font-size: 90px;
+	font-weight: 800;
+	margin: 0 auto;
+	color: orange;
+	text-shadow: black 5px 5px 5px;
+}
+
+.menu a{
+	color: white;
+	font-size: 25px;
+	font-weight: 1000;
+	text-shadow: black 5px 5px 5px;
+	
+}
+.menu a:hover{
+	color: yellow;
+	text-shadow: black 5px 5px 5px;
+}
+.menu li+li{
+	padding-left: 10px;
+}
+
+.razdelitel_1{
+	background-image: url(../img/razdelitel.jpg);
+	background-repeat: repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 35px;
+}
+
+.slider{
+	background-image: url(../img/fon-text.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 350px;
+}
+
+.slider_item-con{
+	text-align: center;
+	padding-top: 1px;
+	padding-left: 150px;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.slider_inner{
+	position: relative;
+	margin: 0 auto;
+	padding-right: 100px;
+}
+
+.slick_btn{
+	position: absolute;
+	top: 100%;
+}
+
+.slick-next{
+	right: 0;
+	background-image: url(../img/right.jpg);
+	height: 55px;
+	width: 55px;
+}
+
+.slick-prev{
+	left: 0;
+	background-image: url(../img/left.jpg);
+	height: 55px;
+	width: 55px;
+}
+
+/*.btn_foto{
+	display: inline-block;
+	font-size: 25px;
+	border: 3px solid grey;
+	margin-left: 580px;
+	padding: 5px 10px 5px 10px;
+	background-image: linear-gradient(to bottom, rgb(245, 135, 10), rgb(245, 144, 9), rgb(245, 154, 8), rgb(246, 163, 7), rgb(246, 173, 6), rgb(246, 182, 5), rgb(246, 192, 5), rgb(246, 201, 4), rgb(246, 211, 3), rgb(247, 220, 2), rgb(247, 230, 1), rgb(247, 239, 0));
+	font-weight: 1000;
+}*/
+
+.razdelitel_2{
+	background-image: url(../img/razdelitel_2.jpg);
+	background-repeat: repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 35px;
+}
+
+.text-block{
+	background-image: url(../img/fon_2.jpg);
+	background-repeat: no-repeat;
+	min-height: 1200px;
+	
+}
+
+.text-block_2{
+	background-image: url(../img/fon_2_2.jpg);
+	background-repeat: no-repeat;
+	min-height: 2400px;
+}
+
+.text-block_3{
+	background-image: url(../img/fon_2_2.jpg);
+	background-repeat: repeat;
+	min-height: 20000px;
+}
+
+.textt{
+	color: black;
+	width: 1920px;
+	position: relative;
+	padding-top: 100px;
+	padding-left: 250px;
+	padding-right: 250px;
+}
+
+.textt_2{
+	color: black;
+	width: 1920px;
+	position: relative;
+	font-size: 20px;
+}
+
+#column1{
+	padding-top: 50px;
+	font-size: 15px;
+	/*border: 2px solid grey;*/
+}
+.preza{
+	padding-top: 50px;
+	font-size: 30px;
+}
+
+#column2{
+	text-align: left;
+	font-size: 15px;
+	padding-left: 100px
+}
+
+.videosujet{
+	padding-top: 450px;
+}
+
+.informacia{
+	padding-top: 50px;
+}
+
+.zagl{
+	padding-top: 100px;
+}
+
+.razdelitel_3{
+	background-image: url(../img/razdelitel_3.jpg);
+	background-repeat: repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 35px;
+}
+
+.cerkov{
+	text-align: center;
+	font-size: 40px;
+	font-weight: 1000;
+	-webkit-text-stroke: 1px black;
+	color: orange;
+	/*text-shadow: black 5px 5px 5px;*/
+}
+
+.links_block{
+	background-image: url(../img/fon-text.jpg);
+	background-repeat: no-repeat;
+	min-height: 200px;
+}
+
+.links{
+	color: white;
+	width: 1920px;
+	position: relative;
+	font-size: 30px;
+	text-align: center;
+}
+
+body{
+	
+}
